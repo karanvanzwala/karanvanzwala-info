@@ -276,17 +276,17 @@ and more..`,
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
-    {
-      title: "Hack The North",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
+    // {
+    //   title: "Hack The North",
+    //   dates: "September 14th - 16th, 2018",
+    //   location: "Waterloo, Ontario",
+    //   description:
+    //     "Developed a mobile application which delivers university campus wide events in real time to all students.",
+    //   image:
+    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+    //   mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+    //   links: [],
+    // },
     {
       title: "FirstNet Public Safety Hackathon",
       dates: "March 23rd - 24th, 2018",
