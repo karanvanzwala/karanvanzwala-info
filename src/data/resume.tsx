@@ -3,23 +3,17 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Karan Vanzwala",
-  initials: "MC",
+  initials: "KV",
   url: "https://maheshchambhare.in",
   location: "Surat, India",
   locationLink: "https://www.google.com/maps/place/surat",
   description:
-    "Frontend Developer with 3+ Years of Experience | Transforming Ideas into Engaging Web & Mobile Experiences 🚀",
+    "Frontend Developer with 3+ Years of Experience | Transforming Ideas into Engaging Web Experiences 🚀",
   summary: `Hi, I’m Karan Vanzwala! With over three years of hands-on experience, I specialize in crafting visually stunning and user-centric web and mobile applications that make an impact. My passion lies in bringing concepts to life with sleek interfaces and seamless functionality. I’m proficient in the latest frontend technologies and best practices, ensuring every project is modern, fast, and intuitive. Whether you need to elevate your brand's digital presence or build a new product from scratch, I’m here to make it happen.
 
 Let’s build something exceptional together!`,
   avatarUrl: "/me.webp",
-  skills: [
-    "React",
-    "React Native",
-    "Next.js",
-    "Typescript",
-    "Tailwind Css"
-  ],
+  skills: ["React", "Next.js", "Typescript", "Tailwind Css"],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "karan.vanzwala@gmail.com",
@@ -39,7 +33,7 @@ Let’s build something exceptional together!`,
       },
       X: {
         name: "X",
-        url: "https://x.com/maheshchambhare",
+        url: "https://x.com/KaranVanzwala",
         icon: Icons.x,
         navbar: true,
       },
@@ -57,12 +51,13 @@ Let’s build something exceptional together!`,
         icon: Icons.whatsapp,
         navbar: true,
       },
-      resume: {
-        name: "Download Resume",
-        url: "https://docs.google.com/document/d/1AQJ5BWECb3KxMMxtpC0p_0nilDRZsxP3/edit?usp=sharing&ouid=113918340036709473921&rtpof=true&sd=true",
-        icon: Icons.googleDrive,
-        navbar: true,
-      },
+      // resume: {
+      //   name: "Download Resume",
+      //   // url: "https://docs.google.com/document/d/1AQJ5BWECb3KxMMxtpC0p_0nilDRZsxP3/edit?usp=sharing&ouid=113918340036709473921&rtpof=true&sd=true",
+      //   url: "https://docs.google.com/document/d/1apJRe4jv0WPJ7UxjJ6drSXrMCBpu1nucC9MwgzvciQM/edit?usp=sharing",
+      //   icon: Icons.googleDrive,
+      //   navbar: true,
+      // },
     },
   },
 
@@ -105,7 +100,7 @@ Let’s build something exceptional together!`,
       href: "https://www.samvaratech.com/",
       location: "Surat",
       title: "Frontend Developer",
-      logoUrl: "/wiztech.webp",
+      logoUrl: "/samvara.webp",
       start: "Sep 2021",
       end: "Dec 2022",
       description: (
@@ -131,16 +126,6 @@ Let’s build something exceptional together!`,
         </ul>
       ),
     },
-    {
-      company: "Unikwork",
-      href: "https://unikwork.com/",
-      badges: [],
-      location: "Surat",
-      title: "React Native Internship",
-      logoUrl: "/unikwork.webp",
-      start: "Jul 2021",
-      end: "Aug 2021",
-    },
   ],
   education: [
     {
@@ -151,7 +136,6 @@ Let’s build something exceptional together!`,
       start: "2022",
       end: "2025",
     },
-    
   ],
   projects: [
     {
@@ -170,31 +154,6 @@ Let’s build something exceptional together!`,
         },
       ],
       image: "/oneboardproject.webp",
-    },
-    {
-      title: "Appointify",
-      href: "https://appointify.in/",
-      dates: "Mar 2024 - June 2024",
-      active: true,
-      description:
-        "Appointify is the ultimate solution for businesses to seamlessly manage appointments and tickets online. Say goodbye to scheduling headaches and hello to a more organized and efficient way of running your business.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Postgres",
-        "prisma",
-        "aws",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://appointify.in",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/appointify.webp",
     },
 
     {
@@ -226,43 +185,6 @@ One cannot just be a successful exporter if s/he doesn’t know the market and c
 
       image: "/vimalpower.webp",
     },
-    {
-      title: "Knowyoursnack",
-      dates: "Aug 2024",
-      active: true,
-      description: `KnowYourSnack is your personal guide to understanding snack ingredients. Simply snap a photo of the ingredients list on any snack package, and our AI-powered app will identify harmful substances, provide detailed information, and help you make healthier choices.`,
-      technologies: [
-        "Next Js",
-        "Typescript",
-        "TailwindCSS",
-        "Supabase",
-        "Gemini Ai",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.knowyoursnack.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-
-      image: "/knowyoursnack.webp",
-    },
-    {
-      title: "B2B Exporter",
-
-      dates: "June 2023 - Present",
-      active: true,
-      description: `Project description. B2B website for exporters, With this website exporters can go digital and get their clients, Here i was responsible for building frontend side of this project,
-How this website help exporters
-1) Exporters now can go digital and market themselves
-2) Design like ecom sites where exporters clients can see what products that they are exporting and also can order
-3) Exporter can change color of theme from Dashboard , and it will reflect in frontend website
-and more..`,
-      technologies: ["React Js", "Typescript", "TailwindCSS"],
-
-      image: "/b2bexporters.webp",
-    },
   ],
   hackathons: [
     {
@@ -276,17 +198,7 @@ and more..`,
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
-    // {
-    //   title: "Hack The North",
-    //   dates: "September 14th - 16th, 2018",
-    //   location: "Waterloo, Ontario",
-    //   description:
-    //     "Developed a mobile application which delivers university campus wide events in real time to all students.",
-    //   image:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-    //   mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-    //   links: [],
-    // },
+
     {
       title: "FirstNet Public Safety Hackathon",
       dates: "March 23rd - 24th, 2018",
