@@ -55,10 +55,7 @@ const CardContent = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn(
-      "text-pretty font-sans text-sm text-muted-foreground",
-      className
-    )}
+    className={cn("text-pretty font-sans text-sm ", className)}
     {...props}
   />
 ));
