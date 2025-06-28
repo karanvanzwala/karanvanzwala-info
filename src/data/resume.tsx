@@ -8,12 +8,31 @@ export const DATA = {
   location: "Surat, India",
   locationLink: "https://www.google.com/maps/place/surat",
   description:
-    "Frontend Developer with 3+ Years of Experience | Transforming Ideas into Engaging Web Experiences 🚀",
-  summary: `Hi, I’m Karan Vanzwala! With over three years of hands-on experience, I specialize in crafting visually stunning and user-centric web and mobile applications that make an impact. My passion lies in bringing concepts to life with sleek interfaces and seamless functionality. I’m proficient in the latest frontend technologies and best practices, ensuring every project is modern, fast, and intuitive. Whether you need to elevate your brand's digital presence or build a new product from scratch, I’m here to make it happen.
+    "Senior Frontend Engineer with 3+ Years of Excellence | Architecting Innovative Digital Solutions & Elevating User Experiences 🚀",
+  summary: `Accomplished Frontend Engineer with 3+ years of proven expertise in crafting sophisticated digital experiences that seamlessly merge cutting-edge technology with exceptional design principles. I architect and deliver high-performance, scalable web applications leveraging advanced frameworks including React and Next.js. My engineering approach emphasizes writing elegant, production-grade code while creating intuitive, conversion-focused user interfaces that maximize engagement. I remain at the forefront of emerging technologies and industry standards, consistently delivering solutions that surpass client expectations and drive business growth. Whether spearheading projects independently or collaborating within cross-functional teams, I bring strategic problem-solving capabilities and meticulous attention to technical excellence in every endeavor.
 
 Let’s build something exceptional together!`,
   avatarUrl: "/me.webp",
-  skills: ["React", "Next.js", "Typescript", "Tailwind Css"],
+  skills: [
+    "React",
+    "Next.js",
+    "Typescript",
+    "Tailwind CSS",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Redux",
+    "Git",
+    "REST APIs",
+    "Responsive Design",
+    "Material UI",
+    "Figma",
+    "Shadcn UI",
+    "React Hook Form",
+    "React Query",
+    "React Router",
+    "React Testing Library",
+  ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "karan.vanzwala@gmail.com",
@@ -51,13 +70,12 @@ Let’s build something exceptional together!`,
         icon: Icons.whatsapp,
         navbar: true,
       },
-      // resume: {
-      //   name: "Download Resume",
-      //   // url: "https://docs.google.com/document/d/1AQJ5BWECb3KxMMxtpC0p_0nilDRZsxP3/edit?usp=sharing&ouid=113918340036709473921&rtpof=true&sd=true",
-      //   url: "https://docs.google.com/document/d/1apJRe4jv0WPJ7UxjJ6drSXrMCBpu1nucC9MwgzvciQM/edit?usp=sharing",
-      //   icon: Icons.googleDrive,
-      //   navbar: true,
-      // },
+      resume: {
+        name: "Download Resume",
+        url: "https://docs.google.com/document/d/1apJRe4jv0WPJ7UxjJ6drSXrMCBpu1nucC9MwgzvciQM/edit?usp=sharing",
+        icon: Icons.googleDrive,
+        navbar: true,
+      },
     },
   },
 
@@ -106,12 +124,6 @@ Let’s build something exceptional together!`,
       description: (
         <ul>
           <li>
-            <b>● Developed and Published Mobile Apps: </b> Built high-quality
-            mobile applications using React Native for iOS and Android, and
-            managed their successful publication on the Apple App Store and
-            Google Play Store.
-          </li>
-          <li>
             <b>● Created Responsive Websites</b> Designed and developed
             responsive websites, utilizing modern web technologies to meet
             diverse client needs and deliver exceptional user interfaces.
@@ -139,6 +151,23 @@ Let’s build something exceptional together!`,
   ],
   projects: [
     {
+      title: "Gymble",
+      href: "https://Gymble.us/",
+      dates: "Oct 2023 - Jun 2025",
+      active: true,
+      description:
+        "Gymble is building the best all-in-one platform to help you unlock your business potential. Built by a team of athletes with you in mind, Gymble is the all-in-one sports and fitness management platform that takes the hustle out of running your business so you can focus on what you do best: training.",
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://chatcollect.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/gymbleProject.webp",
+    },
+    {
       title: "OneBoard",
       href: "https://oneboard.app/",
       dates: "Dec 2022 - Mar 2024",
@@ -155,20 +184,16 @@ Let’s build something exceptional together!`,
       ],
       image: "/oneboardproject.webp",
     },
-
     {
-      title: "Indiaport",
+      title: "Indiaport Admin Panel",
       href: "https://play.google.com/store/apps/details?id=com.indianportapp&hl=en_IN&gl=US",
       dates: "Sep 2021 - Nov 2021",
       active: true,
-      description: `IndiaPort, the very first export-import & logistic application solely for updates.
-Being part of EximEducation, Indiaport is determined towards the growth of the nation.
-IndiaPort believes in EximEducations’ motto; ‘Making India the World’s Factory’
-One cannot just be a successful exporter if s/he doesn’t know the market and changes made by the government.`,
-      technologies: ["React Native", "Firebase", "Redux"],
+      description: `Developed and maintained the admin panel for IndiaPort, a leading export-import & logistics application. The admin dashboard enables efficient management of user data, export-import updates, and logistics information. Implemented features for content management, user analytics, and real-time updates to the mobile application. Created intuitive interfaces for administrators to monitor and control application data, ensuring smooth operation of the platform.`,
+      technologies: ["React", "Redux", "Material UI", "REST APIs"],
       links: [
         {
-          type: "App",
+          type: "Website",
           href: "https://play.google.com/store/apps/details?id=com.indianportapp&hl=en_IN&gl=US",
           icon: <Icons.globe className="size-3" />,
         },
@@ -176,13 +201,19 @@ One cannot just be a successful exporter if s/he doesn’t know the market and c
       image: "/indiaport.webp",
     },
     {
-      title: "Vimal Power",
+      title: "Vimal Power Admin Panel",
       href: "https://play.google.com/store/apps/details?id=com.indianportapp&hl=en_IN&gl=US",
       dates: "Dec 2021 - Feb 2022",
       active: true,
-      description: `VimalPower is a streamlined B2B sales app for the electronics industry, designed to simplify bulk ordering for businesses. With VimalPower, companies can easily browse products, place large orders, and manage transactions all in one place. This app optimizes the order process, making it faster and more efficient for businesses to stock up on essential electronics.`,
-      technologies: ["React Native", "Firebase", "Redux"],
-
+      description: `Developed and maintained the admin panel for VimalPower, a B2B electronics industry platform. Created an intuitive dashboard for managing product catalogs, bulk orders, and transaction data. Implemented features for inventory management, order processing, and business analytics. Built robust admin interfaces to monitor and control the platform's operations, ensuring smooth B2B transactions and efficient order fulfillment.`,
+      technologies: ["React", "Redux", "Material UI", "REST APIs"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.knowyoursnack.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       image: "/vimalpower.webp",
     },
   ],
