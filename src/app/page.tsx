@@ -113,7 +113,7 @@ export default function Page() {
               {DATA.skills.map((skill, id) => (
                 <Card
                   key={skill}
-                  className="group transition-all duration-300 border-0 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-700">
+                  className="group transition-all duration-300 border-0  dark:from-gray-800 dark:to-gray-700">
                   <CardContent className="p-3 sm:p-4 text-center">
                     <Badge className="text-xs sm:text-sm font-medium bg-gradient-to-r from-blue-500 to-purple-500 text-white border-0 transition-transform duration-300 whitespace-nowrap">
                       {skill}

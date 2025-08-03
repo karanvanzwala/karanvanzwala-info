@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/surat",
   description:
     "Senior Frontend Engineer with 3+ Years of Excellence | Architecting Innovative Digital Solutions & Elevating User Experiences 🚀",
-  summary: `Accomplished Frontend Engineer with 3+ years of proven expertise in crafting sophisticated digital experiences that seamlessly merge cutting-edge technology with exceptional design principles. I architect and deliver high-performance, scalable web applications leveraging advanced frameworks including React and Next.js. My engineering approach emphasizes writing elegant, production-grade code while creating intuitive, conversion-focused user interfaces that maximize engagement. I remain at the forefront of emerging technologies and industry standards, consistently delivering solutions that surpass client expectations and drive business growth. Whether spearheading projects independently or collaborating within cross-functional teams, I bring strategic problem-solving capabilities and meticulous attention to technical excellence in every endeavor.
+  summary: `I'm a Frontend Engineer with over 3 years of experience building modern web applications. I specialize in React and Next.js, creating fast and user-friendly websites that look great and work smoothly. I write clean, maintainable code and stay up-to-date with the latest web technologies. I work well both independently and in teams, always focusing on delivering high-quality solutions that help businesses succeed.
 
 Let’s build something exceptional together!`,
   avatarUrl: "/me.webp",
