@@ -80,38 +80,38 @@ Let’s build something exceptional together!`,
   },
 
   work: [
-    {
-      company: "Oneboard",
-      href: "https://oneboard.app/",
-      badges: [],
-      location: "Goa (Remote)",
-      title: "Senior Frontend Developer",
-      logoUrl: "/oneboard.webp",
-      start: "Dec 2022",
-      end: "Mar 2024",
-      description: (
-        <ul>
-          <li>
-            <b>● Led Intern Training and Project Development:</b> Mentored two
-            interns in Next.js, React.js, and Tailwind CSS, guiding them through
-            the complete development lifecycle of an onboarding website from
-            scratch.
-          </li>
-          <li>
-            <b>● Improved Website Performance:</b> Implemented lazy loading
-            techniques and other optimizations, increasing the website
-            performance score from 30 to 95 for desktop and 85 for mobile,
-            resulting in a faster and more efficient user experience.
-          </li>
-          <li>
-            <b>● Optimized Image Handling: </b>Suggested and implemented image
-            optimization methods by converting images to WebP format and
-            applying compression techniques, reducing image sizes from 2-3 MB to
-            50-300 KB, further enhancing website performance.
-          </li>
-        </ul>
-      ),
-    },
+    // {
+    //   company: "Oneboard",
+    //   href: "https://oneboard.app/",
+    //   badges: [],
+    //   location: "Goa (Remote)",
+    //   title: "Senior Frontend Developer",
+    //   logoUrl: "/oneboard.webp",
+    //   start: "Dec 2022",
+    //   end: "Mar 2024",
+    //   description: (
+    //     <ul>
+    //       <li>
+    //         <b>● Led Intern Training and Project Development:</b> Mentored two
+    //         interns in Next.js, React.js, and Tailwind CSS, guiding them through
+    //         the complete development lifecycle of an onboarding website from
+    //         scratch.
+    //       </li>
+    //       <li>
+    //         <b>● Improved Website Performance:</b> Implemented lazy loading
+    //         techniques and other optimizations, increasing the website
+    //         performance score from 30 to 95 for desktop and 85 for mobile,
+    //         resulting in a faster and more efficient user experience.
+    //       </li>
+    //       <li>
+    //         <b>● Optimized Image Handling: </b>Suggested and implemented image
+    //         optimization methods by converting images to WebP format and
+    //         applying compression techniques, reducing image sizes from 2-3 MB to
+    //         50-300 KB, further enhancing website performance.
+    //       </li>
+    //     </ul>
+    //   ),
+    // },
     {
       company: "Samvara Technologies",
       badges: [],
@@ -120,7 +120,7 @@ Let’s build something exceptional together!`,
       title: "Frontend Developer",
       logoUrl: "/samvara.webp",
       start: "Sep 2021",
-      end: "Dec 2022",
+      end: "Aug 2025",
       description: (
         <ul>
           <li>
@@ -161,7 +161,7 @@ Let’s build something exceptional together!`,
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://gymble.us/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -178,7 +178,7 @@ Let’s build something exceptional together!`,
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "http://oneboard.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -207,13 +207,13 @@ Let’s build something exceptional together!`,
       active: true,
       description: `Developed and maintained the admin panel for VimalPower, a B2B electronics industry platform. Created an intuitive dashboard for managing product catalogs, bulk orders, and transaction data. Implemented features for inventory management, order processing, and business analytics. Built robust admin interfaces to monitor and control the platform's operations, ensuring smooth B2B transactions and efficient order fulfillment.`,
       technologies: ["React", "Redux", "Material UI", "REST APIs"],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.knowyoursnack.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      // links: [
+      //   {
+      //     type: "Website",
+      //     href: "#",
+      //     icon: <Icons.globe className="size-3" />,
+      //   },
+      // ],
       image: "/vimalpower.webp",
     },
   ],
